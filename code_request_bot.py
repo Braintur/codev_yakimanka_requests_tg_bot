@@ -8,7 +8,7 @@ now = datetime.now()
 token='6709615504:AAHXlUquuFDxZ2RkX5m4CTQN0rru_jM_I60'#6507239473:AAHV3QVbhJmagkAu54pbC5BcSXuydKNGmHc
 bot = TeleBot(token)
 
-db = sqlite3.connect('C:\\Users\\Misha\\OneDrive\\Документы\\python\\codev\\telegram\\some_bot_cant_name_it\\data.db', check_same_thread=False)
+db = sqlite3.connect('data.db', check_same_thread=False)
 sql = db.cursor()
 
 company_name = ''
